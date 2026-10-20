@@ -1,0 +1,17 @@
+# Virtual environments & caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+.ruff_cache/
+**/.ruff_cache/
+
+# Environment variables & credentials
+.env
+**/.env
+*.share
+*.key
+*credentials*.json
+adc.json
